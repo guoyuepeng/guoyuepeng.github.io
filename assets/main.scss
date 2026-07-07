@@ -1,0 +1,49 @@
+---
+---
+
+$base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans",
+  "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB",
+  "Microsoft YaHei", sans-serif;
+$base-font-size: 17px;
+$base-line-height: 1.75;
+
+@import "minima";
+
+body,
+button,
+input,
+textarea,
+select {
+  font-family: $base-font-family;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.site-title,
+.page-heading,
+.post-title,
+.post-link {
+  font-family: $base-font-family;
+  font-style: normal;
+  letter-spacing: 0;
+}
+
+em,
+i,
+blockquote {
+  font-style: normal;
+}
+
+blockquote {
+  color: #424242;
+  border-left-color: #e8e8e8;
+}
+
+.post-meta {
+  font-style: normal;
+}
