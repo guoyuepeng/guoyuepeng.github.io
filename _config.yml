@@ -1,3 +1,5 @@
 theme: minima
 title: William's homepage
 description: xjbx
+header_pages:
+  - about.md
