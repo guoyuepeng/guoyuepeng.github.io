@@ -1,4 +1,13 @@
+theme: minima
 title: 小火慢炖
 description: xjbx
+
+plugins:
+  - jekyll-paginate
+
+paginate: 8
+paginate_path: "/page:num/"
+
 header_pages:
+  - archive.md
   - about.md
